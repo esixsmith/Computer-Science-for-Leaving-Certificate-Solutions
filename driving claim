@@ -1,0 +1,25 @@
+def AttendeeA():
+  AttendeeA= int(input("enter the amount of KM'S that   you drove: "))
+def AttendeeB():
+  AttendeeB= int(input("enter the amount of KM'S that   you drove: "))
+  AttendeeBcost= int(input("enter the amount of KM'S    that you drove: "))
+def AttendeeC():
+  AttendeeC= int(input("enter the amount of KM'S that     you drove: "))
+
+
+attendeegroup = input("what attend group are from")
+if attendeegroup == "AttendeeA":
+  AttendeeA()
+  AttendeeAtotcost = AttendeeA * 21.23
+  print(AttendeeAtotcost)
+elif attendeegroup == "AttendeeB":
+  AttendeeB()
+  AttendeeAtotcost = AttendeeB * AttendeeBcost
+  print(AttendeeAtotcost)
+elif attendeegroup == "AttendeeC":
+  AttendeeC()
+  AttendeeAtotcost = AttendeeC * 21.23
+  print(AttendeeAtotcost)
+else:
+  print("invalid attendee group")
+  
